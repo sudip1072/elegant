@@ -5,11 +5,11 @@ import Layout from '../components/layout'
 
 import SEO from '../components/seo'
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
    
-    
+    <h3>Contact page</h3>
     
   </Layout>
 )
@@ -17,4 +17,4 @@ const IndexPage = () => (
 
 
 
-export default IndexPage
+export default ContactPage
